@@ -1,0 +1,577 @@
+{
+  "step-one": {
+    "language-dropdown": {
+      "English": "अंग्रेज़ी",
+      "Hindi": "हिंदी",
+      "Marathi": "मराठी"
+    },
+    "title": [
+      { "text": "2 मिनट में अपनी सौर" },
+      { "text": "बचत की", "variant": "blue" },
+      { "text": "गणना करें", "variant": "blue" }
+    ],
+    "subtitle": "अपनी सौर बचत का त्वरित अनुमान प्राप्त करें।",
+    "knowYour": "जाएँ",
+    "metrics": [
+      {
+        "key": "yourSavings",
+        "label": "अनुमानित बचत"
+      },
+      {
+        "key": "upfrontCost",
+        "label": "प्रारंभिक लागत"
+      },
+      {
+        "key": "paybackTime",
+        "label": "लागत वसूली का समय"
+      }
+    ],
+    "button": {
+      "calculateSavings": "गणना करें"
+    },
+    "links": ["हाउसिंग सोसाइटी के लिए", "व्यवसाय के लिए"]
+  },
+  "step-two": {
+    "title": [{ "text": "आपका" }, { "text": "PIN कोड?", "variant": "blue" }],
+    "subtitle": "यह हमें यह जांचने में मदद करता है कि क्या हम आपका क्षेत्र सेवा करते हैं",
+    "buttons": {
+      "back": "वापस",
+      "next": "अगला"
+    }
+  },
+  "step-three": {
+    "title": [
+      { "text": "आपका" },
+      { "text": "मासिक", "variant": "blue" },
+      { "text": "बिजली", "variant": "blue" },
+      { "text": "बिल?", "variant": "blue" }
+    ],
+    "subtitle": "यह हमें सही सेटअप और बचत का अनुमान लगाने में मदद करता है",
+    "buttons": {
+      "back": "वापस",
+      "next": "अगला"
+    }
+  },
+  "step-four": {
+    "title": [
+      { "text": "आपकी" },
+      { "text": "छत कितनी बड़ी है?", "variant": "blue" }
+    ],
+    "subtitle": "यह हमें आपके स्थान के अनुसार सोलर सेटअप सुझाने में मदद करता है",
+    "options": [
+      {
+        "title": "छोटा टैरेस",
+        "area": "400 वर्ग फुट से कम",
+        "description": "1–2 कुर्सियां, पौधे या कपड़े सुखाने के लिए पर्याप्त जगह",
+        "value": "small"
+      },
+      {
+        "title": "मध्यम टैरेस",
+        "area": "400–600 वर्ग फुट",
+        "description": "चारपाई, सिलेंडर या मसाले सुखाने के लिए पर्याप्त जगह",
+        "value": "medium"
+      },
+      {
+        "title": "बड़ा टैरेस",
+        "area": "600 वर्ग फुट से अधिक",
+        "description": "पानी की टंकी, स्टोरेज या गेट-टुगेदर के लिए पर्याप्त जगह",
+        "value": "large"
+      }
+    ],
+    "buttons": {
+      "back": "वापस",
+      "next": "अगला"
+    }
+  },
+  "step-five": {
+    "title": [
+      { "text": "कृपया हमारी मदद करें" },
+      { "text": "अपना नाम और नंबर देकर", "variant": "blue" }
+    ],
+    "subtitle": "यह हमारी टीम को आपकी सलाह के लिए संपर्क करने में मदद करेगा",
+    "disclaimer": "सबमिट करने से, आप SolarSquare द्वारा संपर्क किए जाने के लिए सहमत होते हैं",
+    "buttons": {
+      "back": "वापस",
+      "next": "अगला"
+    }
+  },
+  "step-six": {
+    "title": [
+      { "text": "सत्यापित करें आपका" },
+      { "text": "नंबर", "variant": "blue" }
+    ],
+    "subtitle": {
+      "otpSent": "OTP भेजा गया {{phone}} पर।",
+      "resend": "पुनः भेजें",
+      "in": "में"
+    },
+    "buttons": {
+      "back": "वापस",
+      "submit": "मेरी बचत देखें"
+    }
+  },
+  "step-seven": {
+    "left": {
+      "systemSize": "अनुशंसित सिस्टम आकार",
+      "areaRequired": "आवश्यक क्षेत्रफल",
+      "avgMonthlyBill": "औसत मासिक बिल",
+      "pinCode": "PIN कोड"
+    },
+    "right": {
+      "title": [
+        { "text": "आपकी" },
+        { "text": "सोलर से बचत,", "variant": "blue" },
+        { "text": "एक" },
+        { "text": "नज़र में" }
+      ],
+      "lifetimeSavings": {
+        "label": "आपकी जीवन भर की बचत*"
+      },
+      "monthlySavings": {
+        "label": "मासिक"
+      },
+      "yearlySavings": {
+        "label": "वार्षिक"
+      },
+      "goodZero": {
+        "title": [
+          {
+            "text": "आपकी सौर बचत, गारंटीड के साथ"
+          },
+          {
+            "text": "GoodZero™",
+            "color": "bg-linear-(--good-zero-text) bg-clip-text text-transparent"
+          }
+        ],
+        "subtitle": "गारंटीड उत्पादन। वरना हम आपको पैसे वापस देंगे।"
+      },
+      "buttons": {
+        "back": "वापस",
+        "next": "अनुमानित लागत"
+      },
+      "disclaimer": "*बचत 25 वर्षों में अनुमानित इनपुट्स के आधार पर गणना की गई है, जिसमें 1% वार्षिक गिरावट और 3% महंगाई दर का अनुमान है। उपयोग और स्थितियों के आधार पर यह बदल सकता है।"
+    }
+  },
+  "step-eight": {
+    "left": {
+      "title": [
+        { "text": "₹{{lifetime_savings}}", "variant": "green" },
+        { "text": "की" },
+        { "text": "बचत" },
+        { "text": "से आप" },
+        { "text": "क्या-क्या कर सकते हैं" }
+      ],
+      "ideas": {
+        "type1": [
+          "एक इलेक्ट्रिक स्कूटर खरीदें",
+          "परिवार के साथ गोवा की छुट्टी",
+          "अपने घर को नया रूप दें",
+          "सोना या हीरे का गहना खरीदें"
+        ],
+        "type2": [
+          "नई कार की डाउन पेमेंट",
+          "परिवार के साथ थाईलैंड की छुट्टी",
+          "अपने घर के इंटीरियर्स को अपग्रेड करें",
+          "अपने बच्चे की 5 साल की स्कूल फीस भरें"
+        ],
+        "type3": [
+          "नई कार में अपग्रेड करें",
+          "2 लोगों के लिए यूरोप का सपना यात्रा",
+          "अपने घर के इंटीरियर्स को अपग्रेड करें",
+          "अपने बच्चे की कॉलेज शिक्षा को फंड करें"
+        ],
+        "type4": [
+          "इलेक्ट्रिक कार में अपग्रेड करें",
+          "अपने माता-पिता को विदेश यात्रा का तोहफा दें",
+          "सोना या हीरे का गहना खरीदें",
+          "अपने बच्चे की उच्च शिक्षा को फंड करें"
+        ],
+        "type5": [
+          "एक टॉप एंड SUV खरीदें",
+          "परिवार के साथ ऑस्ट्रेलिया की छुट्टी",
+          "एक छोटा व्यवसाय शुरू करें",
+          "बच्चों को विदेश पढ़ाई के लिए भेजें"
+        ]
+      }
+    },
+    "right": {
+      "title": [
+        { "text": "और जानिए आपकी" },
+        { "text": "सोलर", "variant": "blue" },
+        { "text": "इंस्टॉलेशन", "variant": "blue" },
+        { "text": "की लागत कितनी होगी" }
+      ],
+      "breakdown": {
+        "totalCost": "प्लांट की कुल लागत",
+        "pmsgySubsidy": "PMSGY सब्सिडी",
+        "stateSubsidy": "राज्य सब्सिडी (यदि लागू हो)",
+        "netCost": "शुद्ध लागत*"
+      },
+      "savingsNote": "<light>हर महीने</light> <green>₹{{savings}}</green><light> बचने से आप</light> <highlight>{{paybackPeriod}}</highlight> वर्षों में ब्रेक‑ईवन हो जाएंगे",
+      "roiNote": "<light>इस सेटअप के साथ, आपकी ROI</light> <green>{{roi}}%</green><light> है</light> जो अधिकांश <highlight>FDs</highlight> से बेहतर है",
+      "whatsapp": "WhatsApp पर रिपोर्ट भेजें",
+      "whatsAppOnPhone": "{{phoneNumber}} पर रिपोर्ट भेजी गई",
+      "buttons": {
+        "back": "वापस",
+        "cta": "अपनी सौर यात्रा शुरू करें"
+      },
+      "disclaimer": "बचत का हिसाब 25 वर्षों के अनुमानित आंकड़ों के आधार पर किया गया है, जिसमें प्रति वर्ष 1% क्षमता में गिरावट और 3% मुद्रास्फीति को शामिल किया गया है। वास्तविक बचत साइट सर्वे के बाद तय की जाएगी और यह उपयोग तथा संयंत्र की स्थिति के अनुसार बदल सकती है।"
+    }
+  },
+  "housingAndBusinessLeftSection": {
+    "housingTitle": [
+      {
+        "text": "क्या आपकी सोसाइटी सोलर पर विचार कर रही है?",
+        "color": "text-white"
+      },
+      { "text": "शामिल हों इस अभियान में", "color": "text-secondary-500" }
+    ],
+    "subtitle": "SolarSquare पहले से ही भारत की 500+ हाउसिंग सोसायटियों को सशक्त बना रहा है",
+    "businessTitle": [
+      {
+        "text": "क्या आपका व्यवसाय सोलर पर विचार कर रहा है?",
+        "color": "text-white"
+      },
+      { "text": "सोलर अभियान में शामिल हों।", "color": "text-secondary-500" }
+    ],
+    "businessSubtitle": "भारत के व्यवसाय स्वच्छ ऊर्जा से लागत में कटौती कर रहे हैं"
+  },
+  "housing-society-step-one": {
+    "title": [
+      { "text": "कम करें अपनी" },
+      { "text": "सोसाइटी की", "variant": "blue" },
+      { "text": "बिजली बिल 90% तक", "variant": "blue" }
+    ],
+    "subtitle": "अपनी जानकारी भरें और हमारी टीम आपसे संपर्क करेगी",
+    "buttons": {
+      "back": "पिछला",
+      "next": "आगे"
+    }
+  },
+  "housing-society-step-two": {
+    "title": [
+      { "text": "हमें बताएं" },
+      { "text": "आपकी", "variant": "blue" },
+      { "text": "सोसाइटी", "variant": "blue" },
+      { "text": "के बारे में" }
+    ],
+    "subtitle": "यह हमें आपकी सोसाइटी की ऊर्जा ज़रूरतें समझने में मदद करता है",
+    "buttons": {
+      "back": "पिछला",
+      "next": "आगे"
+    }
+  },
+  "housing-society-step-three": {
+    "title": [
+      { "text": "हमें बताएं आपका" },
+      { "text": "भूमिका", "variant": "blue" },
+      { "text": "सोसाइटी में", "variant": "blue" }
+    ],
+    "subtitle": "ताकि हम आपके लिए अगला कदम व्यक्तिगत रूप से तय कर सकें",
+    "roles": [
+      {
+        "label": "प्रबंधन समिति सदस्य",
+        "value": "Management committee member"
+      },
+      { "label": "निवासी", "value": "Resident" },
+      { "label": "बिल्डर", "value": "Builder" },
+      { "label": "सुविधा प्रबंधक", "value": "Facility Manager" }
+    ],
+    "buttons": {
+      "back": "पिछला",
+      "submit": "सबमिट करें"
+    }
+  },
+  "housing-society-step-four": {
+    "steps": [
+      { "title": "फॉर्म भरें", "checked": true },
+      { "title": "स्टोर पर परामर्श लें", "checked": false },
+      { "title": "आत्मविश्वास के साथ सोलर अपनाएं", "checked": false }
+    ]
+  },
+  "businessStepOne": {
+    "title": [
+      {
+        "text": "अपने व्यवसाय को सशक्त"
+      },
+      {
+        "text": "बनाएं"
+      },
+      { "text": "SolarSquare के साथ", "variant": "blue" }
+    ],
+    "subtitle": "अपनी जानकारी भरें और हमारी टीम आपसे संपर्क करेगी",
+    "buttons": {
+      "back": "पिछला",
+      "next": "आगे"
+    }
+  },
+  "businessStepTwo": {
+    "title": [
+      { "text": "अपने व्यवसाय के बारे में", "variant": "blue" },
+      { "text": "हमें बताएं" }
+    ],
+    "subtitle": "यह हमें आपके व्यवसाय की ऊर्जा ज़रूरतें समझने में मदद करता है",
+    "buttons": {
+      "back": "पिछला",
+      "submit": "सबमिट करें"
+    }
+  },
+  "thankYou": {
+    "left": {
+      "greeting": "धन्यवाद {{name}}!",
+      "title": [
+        { "text": "आपकी" },
+        { "text": "सौर यात्रा अब शुरू होती है!", "variant": "blue" }
+      ],
+      "steps": [
+        { "title": "बचत की गणना करें", "checked": true },
+        { "title": "इन‑स्टोर परामर्श", "checked": false },
+        { "title": "विश्वास के साथ सोलर अपनाएं", "checked": false }
+      ],
+      "expectSection": {
+        "title": "आने वाले 20 मिनटों में अनुभव केंद्र में आप क्या देख सकते हैं:",
+        "data": [
+          {
+            "content": [
+              {
+                "text": "अपने घर को सोलर होते देखें",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "अपना घर, अपना सोलर बूथ पर",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/watch-your-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "हमारे तूफान सिम्युलेटर को एक्सप्लोर करें",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "और देखें हमारी संरचना अडिग खड़ी है",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/explore-our-storm-simulator.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "लाइव मेंटेनेंस डेमो देखें",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "और जानें कैसे AMC कार्यकुशलता बढ़ाता है",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/catch-a-live.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "मज़ेदार 'व्हैक ए मोल' पैनल गेम खेलें",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "टूटे हुए पैनल पहचानने के लिए",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/try-the-fun.webp"
+          }
+        ]
+      }
+    },
+    "right": {
+      "teamSection": {
+        "title": [{ "text": "हमारी टीम से मिलें" }],
+        "members": [
+         {
+            "name": "अभिषेक झा",
+            "role": "स्टोर मैनेजर",
+            "image": "/images/step-nine/abhishek.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "सौरभ गायकवाड़",
+            "role": "डिज़ाइनर",
+            "image": "/images/step-nine/saurabh.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "समृद्ध कलचुरी",
+            "role": "सोलर कंसल्टेंट",
+            "image": "/images/step-nine/samraddh.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "अमनप्रीत कौर",
+            "role": "सोलर सलाहकार",
+            "image": "/images/step-nine/amanprit.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "तेजल शिलवंत",
+            "role": "स्टोर लीड",
+            "image": "/images/step-nine/tejal.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "अक्षय कांबले",
+            "role": "स्टोर लीड",
+            "image": "/images/step-nine/akshay.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "सचिन गायकवाड",
+            "role": "स्टोर लीड",
+            "image": "/images/step-nine/sachin.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "अनुपम बांके",
+            "role": "स्टोर लीड",
+            "image": "/images/step-nine/anupam.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "अभिजीत राऊत",
+            "role": "स्टोर डिज़ाइन इंजीनियर",
+            "image": "/images/step-nine/abhijit.webp",
+            "location": "Pune"
+          }
+        ]
+      },
+      "buttons": {
+        "home": "होम पर वापस जाएं"
+      },
+      "redirectNote": "आपको <strong>{{seconds}}s</strong> में होम पर स्वचालित रूप से रीडायरेक्ट किया जा रहा है"
+    }
+  },
+  "unserviceableModal": {
+    "title": "माफ कीजिए, हम अभी आपके इलाके में सेवा नहीं देते।",
+    "description": [
+      {
+        "text": "यह पिन कोड हमारी सेवा सीमा से बाहर है। हम जल्दी ही नए क्षेत्रों में पहुँच रहे हैं और"
+      },
+      {
+        "text": "जैसे ही आपकी जगह पर सेवा शुरू होगी, हमारी टीम आपसे संपर्क करेगी।",
+        "highlighted": true
+      }
+    ],
+    "button": {
+      "back": "मुख्य पेज पर जाएँ",
+      "generalEstimate": "सामान्य अनुमान देखें"
+    }
+  },
+  "formValidations": {
+    "inputPinCodePlaceholder": "PIN कोड दर्ज करें",
+    "namePlaceholder": "अपना नाम दर्ज करें",
+    "phonePlaceholder": "फोन नंबर दर्ज करें",
+    "inputOtpPlaceholder": "4 अंकों का OTP दर्ज करें",
+    "cityPlaceholder": "शहर",
+    "societyNamePlaceholder": "हाउसिंग सोसाइटी का नाम",
+    "monthlyBillPlaceholder": "मासिक बिजली बिल",
+    "agmStatusPlaceholder": "AGM की मंज़ूरी स्थिति",
+    "designationPlaceholder": "आपकी भूमिका",
+    "companyPlaceholder": "कंपनी का नाम",
+    "sourceTitle": "आपको हमारे बारे में कैसे पता चला?",
+    "sourcePlaceholder": "स्रोत चुनें",
+    "rules": {
+      "nameRules": {
+        "required": "{{field}} आवश्यक है",
+        "minLength": {
+          "message": "{{field}} कम से कम {{min}} अक्षरों का होना चाहिए"
+        },
+        "maxLength": {
+          "message": "{{field}} {{max}} अक्षरों से कम होना चाहिए"
+        },
+        "pattern": {
+          "message": "{{field}} में केवल अक्षर, स्पेस, हाइफन और अपॉस्ट्रॉफी हो सकते हैं"
+        }
+      },
+      "phoneRules": {
+        "required": "फ़ोन नंबर आवश्यक है",
+        "minLength": {
+          "value": 10,
+          "message": "फ़ोन नंबर 10 अंकों का होना चाहिए"
+        },
+        "maxLength": {
+          "value": 10,
+          "message": "फ़ोन नंबर 10 अंकों का होना चाहिए"
+        },
+        "pattern": {
+          "message": "फ़ोन नंबर 6, 7, 8, या 9 से शुरू होना चाहिए"
+        }
+      },
+      "pinCodeRules": {
+        "required": "पिन कोड आवश्यक है",
+        "pattern": {
+          "message": "कृपया मान्य पिन कोड दर्ज करें"
+        },
+        "minLength": {
+          "value": 6,
+          "message": "पिन कोड 6 अंकों का होना चाहिए"
+        },
+        "maxLength": {
+          "value": 6,
+          "message": "पिन कोड 6 अंकों का होना चाहिए"
+        }
+      },
+      "monthlyElectricityBill": {
+        "required": "मासिक बिजली बिल आवश्यक है"
+      },
+      "approvalStatus": {
+        "required": "AGM की मंज़ूरी स्थिति आवश्यक है"
+      },
+      "housingSocietyDesignation": {
+        "required": "हाउसिंग सोसाइटी में भूमिका आवश्यक है"
+      },
+      "source": {
+        "required": "स्रोत आवश्यक है"
+      },
+      "fieldKeys": {
+        "name": "नाम",
+        "city": "शहर",
+        "housing": "हाउसिंग सोसाइटी",
+        "designation": "भूमिका",
+        "company": "कंपनी"
+      }
+    },
+    "data": {
+      "AGM_APPROVAL_STATUS_DATA": [
+        {
+          "_id": "We already have AGM approval",
+          "name": "हमारे पास पहले से AGM की मंज़ूरी है"
+        },
+        {
+          "_id": "We don't have an AGM approval yet",
+          "name": "हमारे पास अभी AGM की मंज़ूरी नहीं है"
+        },
+        {
+          "_id": "We want help in preparing for our AGM",
+          "name": "हम AGM की तैयारी में मदद चाहते हैं"
+        }
+      ],
+      "SOURCE_DATA": [
+        { "_id": "Facebook/ Instagram", "name": "फेसबुक/ इंस्टाग्राम" },
+        { "_id": "Google Search", "name": "गूगल सर्च" },
+        { "_id": "Newspaper", "name": "अख़बार" },
+        { "_id": "SolarSquare Team", "name": "सोलरस्क्वेयर टीम" },
+        { "_id": "Friends and Family", "name": "दोस्त और परिवार" },
+        { "_id": "Direct to Store", "name": "सीधे स्टोर पर" },
+        { "_id": "WhatsApp", "name": "व्हाट्सऐप" }
+      ]
+    },
+    "otpErrors": {
+      "OTP Mismatch": "ओटीपी असंगत है",
+      "OTP Expired": "ओटीपी की अवधि समाप्त हो गई है",
+      "OTP Expired!": "ओटीपी की अवधि समाप्त हो गई है!",
+      "Invalid Login Request": "अमान्य लॉगिन अनुरोध"
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "step-one": {
+    "language-dropdown": {
+      "English": "English",
+      "Hindi": "Hindi",
+      "Marathi": "Marathi"
+    },
+    "title": [
+      { "text": "Calculate your" },
+      { "text": "solar", "variant": "blue" },
+      { "text": "savings", "variant": "blue" }
+    ],
+    "subtitle": "Know how much you'll spend—and when you'll earn it back",
+    "knowYour": "Get to know",
+    "metrics": [
+      {
+        "key": "yourSavings",
+        "label": "Your Savings"
+      },
+      {
+        "key": "upfrontCost",
+        "label": "Upfront Cost"
+      },
+      {
+        "key": "paybackTime",
+        "label": "Payback Time"
+      }
+    ],
+    "button": {
+      "calculateSavings": "Calculate my Solar Savings"
+    },
+    "links": ["Solar for Society", "Solar for Business"]
+  },
+  "step-two": {
+    "title": [
+      { "text": "What's your" },
+      { "text": "PIN code?", "variant": "blue" }
+    ],
+    "subtitle": "This helps us check if we serve your area yet",
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "step-three": {
+    "title": [
+      { "text": "What's your" },
+      { "text": "monthly", "variant": "blue" },
+      { "text": "electricity bill?", "variant": "blue" }
+    ],
+    "subtitle": "Helps us estimate the right setup & savings",
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "step-four": {
+    "title": [
+      { "text": "How big is" },
+      { "text": "your roof?", "variant": "blue" }
+    ],
+    "subtitle": "Helps us suggest a solar setup that fits your space",
+    "options": [
+      {
+        "title": "Compact Terrace",
+        "area": "Less than 400 sq. ft.",
+        "description": "Enough space for 1-2 chairs, plants, or drying clothes",
+        "value": "small"
+      },
+      {
+        "title": "Medium Terrace",
+        "area": "400-600 sq. ft.",
+        "description": "Enough space for a charpai, cylinders, or drying spices",
+        "value": "medium"
+      },
+      {
+        "title": "Large Terrace",
+        "area": "More than 600 sq. ft.",
+        "description": "Enough space for a water tank, storage & get-togethers",
+        "value": "large"
+      }
+    ],
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "step-five": {
+    "title": [
+      { "text": "Please help us with" },
+      { "text": "your name & number", "variant": "blue" }
+    ],
+    "subtitle": "Helps our team reach you for a consultation",
+    "disclaimer": "By submitting, you agree to be contacted by SolarSquare",
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "step-six": {
+    "title": [
+      { "text": "Verify your" },
+      { "text": "number", "variant": "blue" }
+    ],
+    "subtitle": {
+      "otpSent": "OTP sent to {{phone}}.",
+      "resend": "Resend",
+      "in": "in"
+    },
+    "buttons": {
+      "back": "Back",
+      "submit": "See My Savings"
+    }
+  },
+  "step-seven": {
+    "left": {
+      "systemSize": "Recommended System Size",
+      "areaRequired": "Area Required",
+      "avgMonthlyBill": "Avg Monthly Bill",
+      "pinCode": "PIN Code"
+    },
+    "right": {
+      "title": [
+        { "text": "Your" },
+        { "text": "Solar Savings,", "variant": "blue" },
+        { "text": "at a" },
+        { "text": "glance" }
+      ],
+      "lifetimeSavings": {
+        "label": "Your Lifetime Savings*"
+      },
+      "monthlySavings": {
+        "label": "Monthly"
+      },
+      "yearlySavings": {
+        "label": "Yearly"
+      },
+      "goodZero": {
+        "title": [
+          {
+            "text": "Your solar savings, guaranteed with"
+          },
+          {
+            "text": "GoodZero™",
+            "color": "bg-linear-(--good-zero-text) bg-clip-text text-transparent"
+          }
+        ],
+        "subtitle": "Guaranteed generation. Or we pay you back."
+      },
+      "buttons": {
+        "back": "Back",
+        "next": "Estimated Cost"
+      },
+      "disclaimer": "Savings are calculated over 25 years based on estimated inputs, with 1% annual degradation and 3% inflation. Actual savings will be confirmed after site survey and may vary with usage and plant condition."
+    }
+  },
+  "step-eight": {
+    "left": {
+      "title": [
+        { "text": "Things you can do with" },
+        {
+          "text": "₹{{lifetime_savings}}",
+          "variant": "green"
+        },
+        { "text": "savings" }
+      ],
+      "ideas": {
+        "type1": [
+          "Buy an Electric Scooter",
+          "Family Vacation to Goa",
+          "Give your home a makeover",
+          "Buy gold or diamond jewellery"
+        ],
+        "type2": [
+          "Down payment of a new car",
+          "Family Vacation to Thailand",
+          "Upgrade your home interiors",
+          "Fund your child's school fee for 5 Years"
+        ],
+        "type3": [
+          "Upgrade to a New Car",
+          "Dream Europe Trip for 2",
+          "Upgrade your home interiors",
+          "Fund your child's college education "
+        ],
+        "type4": [
+          "Upgrade to an Electric Car",
+          "Gift your parents a trip abroad",
+          "Buy gold or diamond jewellery",
+          "Fund your child's higher education"
+        ],
+        "type5": [
+          "Buy a Top End SUV",
+          "Family Vacation to Australia",
+          "Start a small Business",
+          "Send Kids to Study Abroad"
+        ]
+      }
+    },
+    "right": {
+      "title": [
+        { "text": "And here is how much your" },
+        { "text": "Solar", "variant": "blue" },
+        { "text": "installation will cost you", "variant": "blue" }
+      ],
+      "breakdown": {
+        "totalCost": "Total cost of plant",
+        "pmsgySubsidy": "PMSGY Subsidy",
+        "stateSubsidy": "State Subsidy (If applicable)",
+        "netCost": "Net cost*"
+      },
+      "savingsNote": "<light>With</light> <green>₹{{savings}}</green> <light>monthly savings,</light> you will break even in <highlight>{{paybackPeriod}} years</highlight>",
+      "roiNote": "<light>With this setup, your ROI is</light> <green>{{roi}}%</green> better than most <highlight>FDs</highlight>",
+      "whatsapp": "Send a report on WhatsApp",
+      "whatsAppOnPhone": "Sent a Report on {{phoneNumber}}",
+      "buttons": {
+        "back": "Back",
+        "cta": "Start your Solar Journey"
+      },
+      "disclaimer": "*Cost is indicative and considers starting price without after sales. Actual costs may vary based on location, roof conditions, system type, and final design."
+    }
+  },
+  "housingAndBusinessLeftSection": {
+    "housingTitle": [
+      { "text": "Exploring solar for your society?", "color": "text-white" },
+      { "text": "Join the Movement", "color": "text-secondary-500" }
+    ],
+    "subtitle": "SolarSquare is already powering 500+ housing societies across India",
+    "businessTitle": [
+      { "text": "Exploring solar for your business?", "color": "text-white" },
+      { "text": "Join the solar movement.", "color": "text-secondary-500" }
+    ],
+    "businessSubtitle": "Businesses across India are cutting costs with clean energy"
+  },
+  "housing-society-step-one": {
+    "title": [
+      { "text": "Cut your" },
+      { "text": "Society's", "variant": "blue" },
+      { "text": "Electricity Bills by 90%", "variant": "blue" }
+    ],
+    "subtitle": "Fill in your details and our team will get in touch",
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "housing-society-step-two": {
+    "title": [
+      { "text": "Tell us" },
+      { "text": "about your", "variant": "blue" },
+      { "text": "Society", "variant": "blue" }
+    ],
+    "subtitle": "Helps us assess your society’s energy needs",
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "housing-society-step-three": {
+    "title": [
+      { "text": "Tell us your" },
+      { "text": "role in the", "variant": "blue" },
+      { "text": "Society", "variant": "blue" }
+    ],
+    "subtitle": "So we can personalise the next steps for you",
+    "roles": [
+      {
+        "label": "Management Committee Member",
+        "value": "Management committee member"
+      },
+      { "label": "Resident", "value": "Resident" },
+      { "label": "Builder", "value": "Builder" },
+      { "label": "Facility Manager", "value": "Facility Manager" }
+    ],
+    "buttons": {
+      "back": "Back",
+      "submit": "Submit"
+    }
+  },
+  "housing-society-step-four": {
+    "steps": [
+      { "title": "Fill out the form", "checked": true },
+      { "title": "In-Store Consultation", "checked": false },
+      { "title": "Go Solar with Confidence", "checked": false }
+    ]
+  },
+  "businessStepOne": {
+    "title": [
+      { "text": "Power your Business", "variant": "blue", "break": true },
+      { "text": "with SolarSquare" }
+    ],
+    "subtitle": "Fill in your details and our team will get in touch",
+    "buttons": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+  "businessStepTwo": {
+    "title": [
+      { "text": "Tell us" },
+      { "text": "about your", "variant": "blue" },
+      { "text": "business", "variant": "blue" }
+    ],
+    "subtitle": "Helps us assess your business's energy needs",
+    "buttons": {
+      "back": "Back",
+      "submit": "Submit"
+    }
+  },
+  "thankYou": {
+    "left": {
+      "greeting": "Thank You {{name}}!",
+      "title": [
+        { "text": "Your" },
+        { "text": "Solar Journey Starts Now!", "variant": "blue" }
+      ],
+      "steps": [
+        { "title": "Calculate Savings", "checked": true },
+        { "title": "In-Store Consultation", "checked": false },
+        { "title": "Go Solar with Confidence", "checked": false }
+      ],
+      "expectSection": {
+        "title": "Here's what you can expect in the next 20 Minutes at the Experience Centre:",
+        "data": [
+          {
+            "content": [
+              {
+                "text": "Watch your home go solar at",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "Apna Ghar, Apna Solar Booth",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/watch-your-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "Explore our storm simulator",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "& see our structure stands unshaken",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/explore-our-storm-simulator.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "Catch a live maintenance demo",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "and learn how AMC boosts efficiency",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/catch-a-live.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "Try the fun Whack a mole panel game",
+                "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
+              },
+              {
+                "text": "to identify cracked panels",
+                "color": "text-neutral-300 font-normal"
+              }
+            ],
+            "image": "/images/step-nine/try-the-fun.webp"
+          }
+        ]
+      }
+    },
+    "right": {
+      "teamSection": {
+        "title": [{ "text": "Meet Our Team" }],
+        "members": [
+         {
+            "name": "Abhishek Jha",
+            "role": "Store Manager",
+            "image": "/images/step-nine/abhishek.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "Saurabh Gaikwad",
+            "role": "Designer",
+            "image": "/images/step-nine/saurabh.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "Samraddh Kalchuri",
+            "role": "Solar Consultant",
+            "image": "/images/step-nine/samraddh.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "Amanprit Kaur",
+            "role": "Solar Consultant",
+            "image": "/images/step-nine/amanprit.webp",
+            "location": "Nagpur"
+          },
+          {
+            "name": "Tejal Shilwant",
+            "role": "Store Lead",
+            "image": "/images/step-nine/tejal.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "Akshay Kamble",
+            "role": "Store Lead",
+            "image": "/images/step-nine/akshay.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "Sachin Gaikwad",
+            "role": "Store Lead",
+            "image": "/images/step-nine/sachin.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "Anupam Banke",
+            "role": "Store Lead",
+            "image": "/images/step-nine/anupam.webp",
+            "location": "Pune"
+          },
+          {
+            "name": "Abhijeet Raut",
+            "role": "Store Design Engineer",
+            "image": "/images/step-nine/abhijit.webp",
+            "location": "Pune"
+          }
+        ]
+      },
+      "buttons": {
+        "home": "Back to Home"
+      },
+      "redirectNote": "Automatically Redirecting you to Home in <strong>{{seconds}}s</strong>"
+    }
+  },
+  "unserviceableModal": {
+    "title": "Sorry, we're not in your area yet.",
+    "description": [
+      {
+        "text": "This PIN Code is outside our serviceable area. We're expanding quickly and"
+      },
+      {
+        "text": "our team will get in touch with you once we service your area.",
+        "highlighted": true
+      }
+    ],
+    "button": {
+      "back": "Back to Home",
+      "generalEstimate": "Get General Estimate"
+    }
+  },
+  "formValidations": {
+    "inputPinCodePlaceholder": "Enter PIN Code",
+    "namePlaceholder": "Enter your name",
+    "phonePlaceholder": "Enter Phone Number",
+    "inputOtpPlaceholder": "Enter 4 digit OTP",
+    "cityPlaceholder": "City",
+    "societyNamePlaceholder": "Name of Housing Society",
+    "monthlyBillPlaceholder": "Monthly Electricity Bill",
+    "agmStatusPlaceholder": "AGM Approval Status",
+    "designationPlaceholder": "Your Designation",
+    "companyPlaceholder": "Company Name",
+    "sourceTitle": "How did you get to know about us?",
+    "sourcePlaceholder": "Select a source",
+    "rules": {
+      "nameRules": {
+        "required": "{{field}} is required",
+        "minLength": {
+          "message": "{{field}} must be at least {{min}} characters"
+        },
+        "maxLength": {
+          "message": "{{field}} must be less than {{max}} characters"
+        },
+        "pattern": {
+          "message": "{{field}} can only contain letters, spaces, hyphens, and apostrophes"
+        }
+      },
+      "phoneRules": {
+        "required": "Phone number is required",
+        "minLength": {
+          "value": 10,
+          "message": "Phone number should be of 10 digits"
+        },
+        "maxLength": {
+          "value": 10,
+          "message": "Phone number should be of 10 digits"
+        },
+        "pattern": {
+          "message": "Phone number should start from 6, 7, 8, or 9"
+        }
+      },
+      "pinCodeRules": {
+        "required": "Pincode is required",
+        "pattern": {
+          "message": "Please enter a valid pin code"
+        },
+        "minLength": {
+          "value": 6,
+          "message": "Pincode should be of 6 digits"
+        },
+        "maxLength": {
+          "value": 6,
+          "message": "Pincode should be of 6 digits"
+        }
+      },
+      "monthlyElectricityBill": {
+        "required": "Monthly Electricity Bill is required"
+      },
+      "approvalStatus": {
+        "required": "AGM Approval Status is required"
+      },
+      "housingSocietyDesignation": {
+        "required": "Housing Society Designation is required"
+      },
+      "source": {
+        "required": "Source is required"
+      },
+      "fieldKeys": {
+        "name": "Name",
+        "city": "City",
+        "housing": "Housing Society",
+        "designation": "Designation",
+        "company": "Company"
+      }
+    },
+    "data": {
+      "AGM_APPROVAL_STATUS_DATA": [
+        {
+          "_id": "We already have AGM approval",
+          "name": "We already have AGM Approval"
+        },
+        {
+          "_id": "We don't have an AGM approval yet",
+          "name": "We do not have an AGM Approval yet"
+        },
+        {
+          "_id": "We want help in preparing for our AGM",
+          "name": "We want help in preparing for our AGM"
+        }
+      ],
+      "SOURCE_DATA": [
+        { "_id": "Facebook/ Instagram", "name": "Facebook/ Instagram" },
+        { "_id": "Google Search", "name": "Google Search" },
+        { "_id": "Newspaper", "name": "Newspaper" },
+        { "_id": "SolarSquare Team", "name": "SolarSquare Team" },
+        { "_id": "Friends and Family", "name": "Friends and Family" },
+        { "_id": "Direct to Store", "name": "Direct to Store" },
+        { "_id": "WhatsApp", "name": "WhatsApp" }
+      ]
+    },
+    "otpErrors": {
+      "OTP Mismatch": "OTP Mismatch",
+      "OTP Expired": "OTP Expired",
+      "OTP Expired!": "OTP Expired!",
+      "Invalid Login Request": "Invalid Login Request"
+    }
+  }
+}
