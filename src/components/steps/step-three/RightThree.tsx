@@ -19,7 +19,7 @@ function RightThree() {
         description={dictionary['step-three'].subtitle}
         nextButton={{
           content: dictionary['step-three'].buttons.next,
-          onClick: () => navigate.push('/step-four'),
+          onClick: () => navigate.push('/step-five'),
         }}
         previousButton={{
           content: dictionary['step-three'].buttons.back,

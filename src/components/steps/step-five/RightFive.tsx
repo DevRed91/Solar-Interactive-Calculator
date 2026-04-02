@@ -74,7 +74,7 @@ const RightFive = () => {
       }}
       previousButton={{
         content: dictionary['step-five'].buttons.back,
-        onClick: () => navigate.push('/step-four'),
+        onClick: () => navigate.push('/step-three'),
         variant: 'tertiary',
       }}
     >
