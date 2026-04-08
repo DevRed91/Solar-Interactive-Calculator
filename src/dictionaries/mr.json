@@ -358,8 +358,50 @@
             ],
             "image": "/images/step-nine/try-the-fun.webp"
           }
+        ],
+        "data2": [
+          {
+            "content": [
+              {
+                "text": "Apna Ghar, Apna Solar Booth येथे काही मिनिटांत तुमचे घर सोलरमध्ये रूपांतरित होताना पाहा",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "चक्रीवादळ सिम्युलेशनचा अनुभव घ्या आणि उच्च वेगातही संरचना कशी स्थिर राहते ते पाहा",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "लाईव्ह मेंटेनन्स डेमो पाहा आणि AMC कार्यक्षमता कशी वाढवते ते जाणून घ्या",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "मजेदार Whack-a-Mole पॅनल गेम खेळा आणि तुटलेल्या पॅनल्सची ओळख करा",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          }
         ]
-      }
+      },
+      "buttons": {
+        "home": "मुख्य पृष्ठावर परत जा"
+      },
+      "redirectNote": "<strong>{{seconds}}s</strong> मध्ये तुम्हाला मुख्य पृष्ठावर वळवण्यात येत आहे"
     },
     "right": {
       "teamSection": {
@@ -420,11 +462,7 @@
             "location": "Pune"
           }
         ]
-      },
-      "buttons": {
-        "home": "मुख्य पृष्ठावर परत जा"
-      },
-      "redirectNote": "<strong>{{seconds}}s</strong> मध्ये तुम्हाला मुख्य पृष्ठावर वळवण्यात येत आहे"
+      }
     }
   },
   "unserviceableModal": {

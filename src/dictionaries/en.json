@@ -333,7 +333,7 @@
                 "color": "text-neutral-300 font-normal"
               }
             ],
-            "image": "/images/step-nine/watch-your-home.webp"
+            "image": "/images/step-nine/image1.webp"
           },
           {
             "content": [
@@ -342,11 +342,11 @@
                 "color": "bg-linear-(--thank-you-text) bg-clip-text font-semibold text-transparent"
               },
               {
-                "text": "& see our structure stands unshaken",
+                "text": "& see our structure stands unshaken at highspeeds",
                 "color": "text-neutral-300 font-normal"
               }
             ],
-            "image": "/images/step-nine/explore-our-storm-simulator.webp"
+            "image": "/images/step-nine/image2.webp"
           },
           {
             "content": [
@@ -359,7 +359,7 @@
                 "color": "text-neutral-300 font-normal"
               }
             ],
-            "image": "/images/step-nine/catch-a-live.webp"
+            "image": "/images/step-nine/image3.webp"
           },
           {
             "content": [
@@ -372,16 +372,58 @@
                 "color": "text-neutral-300 font-normal"
               }
             ],
+            "image": "/images/step-nine/image4.webp"
+          }
+        ],
+        "data2": [
+          {
+            "content": [
+              {
+                "text": "Watch your home go solar in minutes at the Apna Ghar, Apna Solar Booth",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-your-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "Explore cyclone simulation & see how structure stands unshaken at high speeds",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/explore-our-storm-simulator.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "Catch a live maintenance demo and learn how AMC boosts efficiency",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/catch-a-live.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "Try the fun Whack a mole panel game to identify cracked panels",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
             "image": "/images/step-nine/try-the-fun.webp"
           }
         ]
-      }
+      },
+      "buttons": {
+        "home": "Back to Home"
+      },
+      "redirectNote": "Automatically Redirecting you to Home in <strong>{{seconds}}s</strong>"
     },
     "right": {
       "teamSection": {
         "title": [{ "text": "Meet Our Team" }],
         "members": [
-         {
+          {
             "name": "Abhishek Jha",
             "role": "Store Manager",
             "image": "/images/step-nine/abhishek.webp",
@@ -436,11 +478,7 @@
             "location": "Pune"
           }
         ]
-      },
-      "buttons": {
-        "home": "Back to Home"
-      },
-      "redirectNote": "Automatically Redirecting you to Home in <strong>{{seconds}}s</strong>"
+      }
     }
   },
   "unserviceableModal": {

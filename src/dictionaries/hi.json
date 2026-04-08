@@ -383,14 +383,56 @@
             ],
             "image": "/images/step-nine/try-the-fun.webp"
           }
+        ],
+        "data2": [
+          {
+            "content": [
+              {
+                "text": "Apna Ghar, Apna Solar Booth पर कुछ ही मिनटों में अपने घर को सोलर बनते हुए देखें",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "चक्रवात सिमुलेशन का अनुभव करें और देखें कि तेज़ रफ्तार हवाओं में भी संरचना कैसे मजबूती से खड़ी रहती है",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "लाइव मेंटेनेंस डेमो देखें और जानें कि AMC कैसे दक्षता बढ़ाता है",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          },
+          {
+            "content": [
+              {
+                "text": "मज़ेदार Whack-a-Mole पैनल गेम खेलें और टूटे हुए पैनलों की पहचान करें",
+                "color": "text-black-900 font-semibold"
+              }
+            ],
+            "image": "/images/step-nine/watch-home.webp"
+          }
         ]
-      }
+      },
+      "buttons": {
+        "home": "होम पर वापस जाएं"
+      },
+      "redirectNote": "आपको <strong>{{seconds}}s</strong> में होम पर स्वचालित रूप से रीडायरेक्ट किया जा रहा है"
     },
     "right": {
       "teamSection": {
         "title": [{ "text": "हमारी टीम से मिलें" }],
         "members": [
-         {
+          {
             "name": "अभिषेक झा",
             "role": "स्टोर मैनेजर",
             "image": "/images/step-nine/abhishek.webp",
@@ -445,11 +487,7 @@
             "location": "Pune"
           }
         ]
-      },
-      "buttons": {
-        "home": "होम पर वापस जाएं"
-      },
-      "redirectNote": "आपको <strong>{{seconds}}s</strong> में होम पर स्वचालित रूप से रीडायरेक्ट किया जा रहा है"
+      }
     }
   },
   "unserviceableModal": {
