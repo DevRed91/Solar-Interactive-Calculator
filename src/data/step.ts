@@ -101,8 +101,8 @@ export const steps = [
     leftComponent: LeftNine,
     rightComponent: RightNine,
     leftClassName:
-      '[background:white] !col-span-13 [&>div]:!pr-12 [&>div]:!pt-20',
-    rightClassName: '[&>div]:!p-0 !col-span-7',
+      '[background:white] !col-span-20 [&>div]:!pr-12 [&>div]:!pt-20', 
+    rightClassName: 'hidden',
     hideLogo: true,
   },
   // ================= Business Flow Steps ==================
