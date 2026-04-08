@@ -62,7 +62,7 @@ const ThankYouLeft = ({ status }: IThankYouLeft) => {
         {isVersion2 ? (
           <div className="flex flex-col gap-6">
             <div className="text-black-300 font-dm-sans text-[32px]/[45px] font-semibold -tracking-[1.28px]">
-              Here's what you can{' '}
+              Here&apos;s what you can{' '}
               <span className="font-dm-sans text-neutral-500">
                 expect in the next 20 Minutes
               </span>{' '}
