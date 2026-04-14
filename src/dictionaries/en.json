@@ -588,6 +588,7 @@
       ],
       "SOURCE_DATA": [
         { "_id": "Facebook/ Instagram", "name": "Facebook/ Instagram" },
+        { "_id": "Hoarding or Local Ad", "name": "Hoarding or Local Ad" },
         { "_id": "Google Search", "name": "Google Search" },
         { "_id": "Newspaper", "name": "Newspaper" },
         { "_id": "SolarSquare Team", "name": "SolarSquare Team" },
