@@ -37,6 +37,7 @@ export const calculations = async (body: SolarCalculationBody) => {
 export const getECNumber = async () => {
   try {
     const response = await calculatorAction.get('/cms/lead/ec/get-ec-member');
+    console.log("EC Number", response.data);
     return response.data;
   } catch (error) {
     if (error instanceof AxiosError) {
