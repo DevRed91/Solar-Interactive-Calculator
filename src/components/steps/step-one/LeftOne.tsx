@@ -35,6 +35,7 @@ function LeftOne() {
             .includes(EXPERIENCE_CENTER.toLowerCase()),
       );
       if (selectedMember) {
+        console.log("Selected EC", selectedMember)
         setEcId(selectedMember._id);
       } else {
         setEcId(ecMember.data[0]._id);
