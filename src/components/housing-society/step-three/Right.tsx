@@ -41,7 +41,7 @@ const HousingSocietyStepThree = () => {
         designation: data.housingSocietyDesignation, // TODO
         bill: monthlyElectricityBill,
         pin: pinCode,
-        source: 'EC',
+        source: 'Mall Activity',
         approval_status: approvalStatus,
       },
       {
