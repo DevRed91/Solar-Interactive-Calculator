@@ -86,7 +86,7 @@ const RightSix = () => {
               mobile: phoneNumber,
               pincode: pinCode?.toString(),
               average_monthly_bill: electricityBill,
-              source: 'EC',
+              source: 'Mall Activity',
               ec_id: ecId,
               source_secondary: source,
             };
