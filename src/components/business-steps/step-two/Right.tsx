@@ -53,7 +53,7 @@ const RightSectionStepTwo = () => {
         mob_no: phoneNumber,
         com_pincode: pinCode,
         bill: data.monthlyElectricityBill,
-        source: 'EC',
+        source: 'Mall Activity',
       },
       {
         onSuccess: () => {
